@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,700;1,400&display=swap');
+
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
+.text-bold{
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.btn-primary{
+  border-radius: 15px;
+  height: 50px;
+  width: 250px;
+}
