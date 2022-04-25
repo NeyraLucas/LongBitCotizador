@@ -103,6 +103,16 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "cotizadorDeServicios:build:production",
+            "firebaseProject": "longbit-53126",
+            "firebaseHostingSite": "longbit-53126"
+          }
         }
       }
     }

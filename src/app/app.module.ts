@@ -7,6 +7,8 @@ import { HomeComponent } from './pages/home/home.component';
 import { CotizadorComponent } from './pages/home/cotizador/cotizador.component';
 import { TipoDeProyectoComponent } from './pages/home/tipo-de-proyecto/tipo-de-proyecto.component';
 import { ChooseTypeProjectComponent } from './pages/home/choose-type-project/choose-type-project.component';
+import { FirebaseModule } from './modules/firebase.module';
+
 
 @NgModule({
   declarations: [
@@ -18,7 +20,8 @@ import { ChooseTypeProjectComponent } from './pages/home/choose-type-project/cho
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FirebaseModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

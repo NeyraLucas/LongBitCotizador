@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "longbit-53126": {
+      "hosting": {
+        "cotizadorDeServicios": [
+          "longbit-53126"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "longbit-53126"
+  }
+}
