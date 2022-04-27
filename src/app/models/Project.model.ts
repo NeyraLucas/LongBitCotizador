@@ -4,10 +4,17 @@ export interface Project{
   project_id:string,
 }
 
+export interface Category{
+  project_name: string,
+  category_name:string,
+  description:string,
+  alias:string,
+}
+
 export interface Subcategory{
-  main_name: string,
+  category_name:string,
   sub_name:string,
-  sub_description:string,
+  description:string,
   items: Array<Sub_items>
 }
 

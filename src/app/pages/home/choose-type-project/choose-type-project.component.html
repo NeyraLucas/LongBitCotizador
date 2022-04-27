@@ -1,10 +1,10 @@
 <section class="flex flex-column container-center">
-  <h1 class="text-bold">A que categoria pertenece?</h1>
-  <div class="row1-container">
-    <a routerLink="../Cotizador/project/movil" class="box box-down cyan flex flex-column container-center">
+  <h1 class="text-bold">¿A qué categoria pertenece?</h1>
+  <div class="items flex flex-row container-center">
+    <a *ngFor="let project of project$ | async " class="item box box-down cyan flex flex-column container-center">
       <i class="bx bx-laptop lg txt-cyan"></i>
-      <h2>Movil</h2>
-      <p>Lorem ipsum dolor sit amet.</p>
+      <h2>{{project.category_name}}</h2>
+      <p>{{project.description}}</p>
     </a>
   </div>
 </section>
